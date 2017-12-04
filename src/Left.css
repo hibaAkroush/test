@@ -1,13 +1,14 @@
 #sap {
 	width: 40px;
-	height: 30px;
-	position: relative;
-	left: 5px;
-	bottom: 5px;
+	height: 20px;
+	position: absolute;
+	left: 65px;
+	top: 10px;
 }
 
 #homer {
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
+	border-style: solid;
 }

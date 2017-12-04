@@ -1,0 +1,21 @@
+#search {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+}
+
+#setting {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	right: 5px;	
+	padding: 5px;
+}
+
+#edit {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	right: 5px;
+	padding: 5px;
+}

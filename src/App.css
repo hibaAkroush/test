@@ -16,7 +16,6 @@ position: absolute;
 top: 10px; 
 float: right; 
 right: 40px; 
-background-color: coral; 
 height: 20px; 
 width: 90px;
 }
@@ -35,7 +34,6 @@ width: 150px
 position: absolute;
 top: 50px;
 left: 50px;
-background-color: coral;
 height: 40px;
 width: 65%
 }
