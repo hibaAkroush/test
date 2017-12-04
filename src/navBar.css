@@ -1,0 +1,11 @@
+.opaque-navbar {
+    background-color: rgba(0,0,0,0);
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.navbar-brand {
+	color: lightgrey;
+	font-size: 17px;
+}
