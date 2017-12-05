@@ -7,7 +7,13 @@
 
 }
 
+.text {
+	position: absolute;
+	top: 20px;
+	float: left;
+	margin-left: 4px;
 
+}
 .conta {
 	background: white;
 	border-radius: 5px;
@@ -16,6 +22,9 @@
 
 .box1 {
 	grid-column: 3/5;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+
 }
 
 .box2 {
@@ -29,9 +38,7 @@
 	width: 70px;
 	height: 70px;
 	float: right;
-	position: relative;
-	right: 30px;
-	bottom: 30px;
+	margin-right: 4px;
 }
 
 #logo1 {
@@ -39,8 +46,8 @@
 	height: 70px;
 	float: right;
 	position: relative;
-	right: 30px;
-	bottom: 30px;
+	right: 20px;
+	bottom: 50px;
 }
 
 #logo2 {
@@ -48,6 +55,6 @@
 	height: 70px;
 	float: right;
 	position: relative;
-	right: 30px;
-	bottom: 30px;
+	right: 20px;
+	bottom: 50px;
 }

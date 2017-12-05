@@ -25,7 +25,6 @@ position: absolute;
 top: 80px; 
 float: right; 
 right: 0px; 
-background-color: coral; 
 height: 450px;
 width: 150px
 }
@@ -41,9 +40,8 @@ width: 65%
 #lorem {
 position: absolute;
 top: 130px;
-left: 50px;
-height: 300px;
-width: 75%
+left: 110px;
+width: 50%;
 }
 
 #workspace {

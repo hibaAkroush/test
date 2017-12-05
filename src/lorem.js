@@ -17,7 +17,7 @@ const element = (
 		</div>
 		<div class="conta box1">
 			<h5>Lorem ipsum</h5>
-			<h7>Neque porro</h7>
+			<p class="text">Lorem ipsum dolor sit amet. </p>
 			<img id="logo" src={logo}/>
 		</div>
 		<div class="conta">
@@ -30,7 +30,7 @@ const element = (
 		</div>
 		<div class="conta box2">
 			<h5>Lorem ipsum</h5>
-			<h7>Neque porro</h7>
+			<p id="text">Lorem ipsum dolor sit amets. </p>
 			<img id="logo1" src={logo1}/>
 		</div>
 		<div class="conta">
@@ -43,7 +43,7 @@ const element = (
 		</div>
 		<div class="conta box3">
 			<h5>Lorem ipsum</h5>
-			<h7>Neque porro </h7>
+			<p id="text">Lorem ipsum dolor sit amet. </p>
 			<img id="logo2" src={logo2}/>
 		</div>
 		<div class="conta">
