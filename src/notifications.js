@@ -1,43 +1,59 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './notifications.css';
-import apu from './img/apu.png'
-import marge from "./img/marge.png"
+import apu from './img/apu.ico'
+import marge from "./img/marge.jpg"
+import x from './img/x.png'
+import $ from 'jquery';
+//
 
 const numbers = [{
-	header: "Lorem ipsum",
+	header: "my super market burned down!",
 	text:"consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
 	time:"30 minutes ago",
-	pic: ""
+	bla: "sed do",
+	pic: apu
 },
 {
 	header: "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
 	text:"",
-	time:"37 minutes ago",
-	pic: ""
+	bla: "adipiscing",
+	time:"37 minutes ago"
 },
 {
 	header: "consectetur adipiscing ipsum incididunt elit",
 	text:"",
-	time:"50 minutes ago",
-	pic: ""
+	bla: "eiusmod",
+	time:"50 minutes ago"
 },
 {
-	header: "eiusmod tempor incididunt",
+	header: "you are the best husband ever",
 	text:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
 	time:"52 minutes ago",
-	pic: ""
+	bla: "tempor",
+	pic: marge
 }];
+
+
+//replace by for cooler efect:
+//arrayColors[Math.floor(Math.random() * arrayColors.length)]}}>
+const arrayColors = ["#ECF5FD","#BEE7AF","#E0C660","#E17777"]
+var i = 0;
 const listItems = numbers.map((number) =>
-  <li>
-  <div class="container">
-  	<div class="head"><p>{number.header}</p></div>
+  <li class="list">
+	<div class="side">
+	</div>
+	<div class="containerN" style={{borderColor:arrayColors[i++]}}>
+		<div class="divx">
+		<a href="https://www.youtube.com/watch?v=SzoIJdjR5wA"><img class="x" src={x}/></a>
+		</div>
+		<div class="head"><p>{number.header}</p></div>
 	  	<div class="body">
+		  	<img class="imgnoti" src={number.pic}/>
 		  	<p>{number.text}</p>
-		  	<img src={number.pic}/>
 	  	</div>
-  	<div class="time"><p>{number.time}</p></div>
-  </div>
+		<div class="time"><p>{number.bla}{ " - " }{number.time}</p></div>
+	</div>
   </li>
 );
 

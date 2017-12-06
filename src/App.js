@@ -5,6 +5,8 @@ import right from './right'
 import navBar from './navBar'
 import lorem from './lorem'
 import notifications from './notifications'
+import workspace from './workspace'
+
 class App extends Component {
   render() {
     return (
